@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">superheroes</string>
+    <string name="nome_1">Jose Noite e Día</string>
+    <string name="nome_2">Protector da Realidade</string>
+    <string name="nome_3">Andrés o Xigante</string>
+    <string name="nome_4">Amador o Bravo</string>
+    <string name="nome_5">Manolo o Magnífico</string>
+    <string name="nome_6">Alicia a Dinamica</string>
+    <string name="Descricion_1">O heroe do Jectpack</string>
+    <string name="Descricion_2">Entende a absoluta verdade</string>
+    <string name="Descricion_3">Imita a luz e a oscuridade para mimetizarse</string>
+    <string name="Descricion_4">Aproveita o poder do canario para desenvolverse con valentía</string>
+    <string name="Descricion_5">Deslízase sen esforzo para salvar o día</string>
+    <string name="Descricion_6">Capacidade para tomar calquera forma e enerxía</string>
+</resources>
