@@ -3,6 +3,9 @@ import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Card
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -10,8 +13,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.example.superheroes.R
 import com.example.superheroes.data.heroe
 
 @Composable
@@ -21,6 +27,8 @@ fun HeroeItem(
 ) {
     Card(
         modifier = modifier
+            .height(dimensionResource(id = R.dimen.card_size))
+            //.height(72.dp)
     ) {
         Row(){
             HeroeInformation(heroe.name, heroe.description)
@@ -53,8 +61,8 @@ fun HeroeIcon(
 ) {
     Image(
         modifier = modifier
-//            .size(dimensionResource(id = R.dimen.image_size))
-//            .padding(dimensionResource(id = R.dimen.padding_small))
+            .size(dimensionResource(id = R.dimen.image_size))
+            //.padding(dimensionResource(id = R.dimen.padding_small))
             .clip(MaterialTheme.shapes.small),
         contentScale = ContentScale.Crop,
         painter = painterResource(heroeIcon),
