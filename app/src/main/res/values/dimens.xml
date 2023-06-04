@@ -7,4 +7,5 @@
     <dimen name="radius_small">8dp</dimen>
     <dimen name="radius_medium">16dp</dimen>
     <dimen name="elevation">2dp</dimen>
+    <dimen name="top_size">56dp</dimen>
 </resources>
